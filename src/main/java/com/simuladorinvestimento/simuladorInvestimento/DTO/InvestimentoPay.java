@@ -3,17 +3,17 @@ package com.simuladorinvestimento.simuladorInvestimento.DTO;
 import com.simuladorinvestimento.simuladorInvestimento.model.Investimento;
 
 public class InvestimentoPay {
-
 	private double valor;
 	
 	private int quantidadeMeses;
 	
 	private double montante;
 
+	// Get/Set
 	public double getValor() {
 		return valor;
 	}
-	// Get/Set
+
 
 	public void setValor(double valor) {
 		this.valor = valor;
@@ -46,9 +46,13 @@ public class InvestimentoPay {
 		
 	}
 
-	public Investimento buildEntity() {
-		// TODO Auto-generated method stub
-		return null;
+	  public Investimento buildEntity() {
+	        Investimento investimento = new Investimento();
+	        investimento.setValor(getValor());
+	        investimento.setQuantidadeMeses(getQuantidadeMeses());
+	        investimento.setMontante(getMontante());
+	        return investimento;
+	    }
 		
 	}
-}
+
