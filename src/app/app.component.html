@@ -1,0 +1,62 @@
+<!-- Image and text -->
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+    SimulaInvestV3
+  </a>
+</nav>
+<div class="container-fluid ">
+
+  <div class="row d-flex justify-content">
+    <div class="col-md-6">
+      
+<form>
+
+  <div class="form-group">
+    <label for="valor">Valor</label>
+    <input type="double" class="form-control" name="valor" id="valor" required>
+  </div>
+
+  <div class="form-group">
+    <label for="QuantidadeMeses">Quantidade de Meses</label>
+    <input type="int" class="form-control" name="QuantidadeMeses" id="QuantidadeMeses" required>
+  </div>
+
+  <div class="form-group">
+    <label for="Montante">Montante</label>
+    <input type="double" class="form-control" name="Montante" id="Montante" required>
+  </div>
+
+  <div class="form-group">
+    <label for="tipo">Tipo</label>
+    <select class="form-control" name="tipo" id="tipo">
+      <option value="1">Investidore Iniciante</option>
+      <option value="2">Investidore Expert</option>
+    </select>
+  </div>
+
+ 
+  <div class="form-group">
+    <label for="observacao">Observação</label>
+    <textarea class="form-control" rows="3" name="observacao" id="observacao"></textarea>
+  </div>
+
+
+
+  <input type="submit" class="btn btn-primary mt-4" routerLink="/postagem" value="Simular">
+  <a href="#" class="btn btn-secondary mt-4 ml-2">Cancelar</a>
+
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="..." alt="Card image cap">
+    <div class="card-body">
+      <p class="card-text">RESULTADO DA SIMULAÇÃO deveria aparecer nesse CARD.</p>
+    </div>
+  </div>
+
+</form>
+    </div>
+    <div class="col-md-6" id="img-bg">
+
+    </div>
+  </div>
+</div>
