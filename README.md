@@ -27,3 +27,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 Print pag do simulador:
 ![image](https://user-images.githubusercontent.com/94873410/167695818-61bb4fd4-7f58-45dd-b043-7aa17b6c5cbe.png)
+
+O Resultado da simulação deveria aparecer em um card no fim da pag:
+![image](https://user-images.githubusercontent.com/94873410/167698684-eb224a34-70ea-4ee6-a273-02077538afd0.png)
