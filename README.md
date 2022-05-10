@@ -7,3 +7,6 @@ Metodo Get Ok:
 
 Metodo Post OK:
 ![image](https://user-images.githubusercontent.com/94873410/167696817-4e78f357-4477-49af-a57c-48ee5fa9d6f1.png)
+
+Tabelas geradas via MySQL:
+![image](https://user-images.githubusercontent.com/94873410/167697220-e2ea97fe-08af-4f11-b101-e30bf2855fe4.png)
