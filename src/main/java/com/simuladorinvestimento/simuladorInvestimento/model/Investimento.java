@@ -14,7 +14,7 @@ public class Investimento {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int id;
+	private long id;
 	
 	@NotNull
 	private double valor;
@@ -25,8 +25,9 @@ public class Investimento {
 	@NotNull
 	private double montante;
 	
+	private String observacao;
 
-	public int getId() {
+	public long getId() {
 		return id;
 	}
 
@@ -63,6 +64,16 @@ public class Investimento {
 
 	public void setMontante(double montante) {
 		this.montante = montante;
+	}
+
+
+	public String getObservacao() {
+		return observacao;
+	}
+
+
+	public void setObservacao(String observacao) {
+		this.observacao = observacao;
 	}
 
 
