@@ -30,4 +30,4 @@ Print pag do simulador:
 ![image](https://user-images.githubusercontent.com/94873410/167698874-42088379-7e3b-43b9-852f-03e799f1079b.png)
 
 O Resultado da simulação deveria aparecer em um card no fim da pag:
-![image](https://user-images.githubusercontent.com/94873410/167698684-eb224a34-70ea-4ee6-a273-02077538afd0.png)
+![image](https://user-images.githubusercontent.com/94873410/167699116-7cbd01c5-9e98-4107-bb72-5a7b171f03c7.png)
